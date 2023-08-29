@@ -1,0 +1,15 @@
+
+.menu {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 10px;
+}
+
+.menu a {
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+    
+}

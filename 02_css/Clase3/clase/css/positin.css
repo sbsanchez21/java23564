@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.caja {
+    display: inline-block;
+    background-color: red;
+    margin: .5rem;
+    padding: 1rem;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#pos {
+    background-color: blue;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+    z-index: 1;
+}
+
+.fondo {
+    background-image: url("../images/fondoP.jpg");
+    height: 200px;
+    margin-bottom: 3rem;
+    position: sticky;
+    top: 0px;
+
+}
+
+.fondo img {
+    width: 80px;
+    position: relative;
+    top: 150px;
+    margin: 0rem .5rem;
+    border-radius: 50px;
+}

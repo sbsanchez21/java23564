@@ -1,0 +1,26 @@
+/* selectores de atributo */
+a {
+    background-color: red;
+    color: white;
+}
+
+p {
+    background-color: lightblue;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* selectores clase */
+.titulo {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* id */
+#publicidad {
+    background-color: yellow;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
