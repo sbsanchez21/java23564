@@ -1,0 +1,20 @@
+.flex-container {
+    background-color: lightgreen;
+    display: flex;
+    height: 250px;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row-reverse wrap-reverse; */
+    /* justify-content: space-between; */
+    align-items: baseline;
+}
+
+.flex-container div {
+    background-color: lightsalmon;
+    width: 50px;
+    /* height: 50px; */
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
