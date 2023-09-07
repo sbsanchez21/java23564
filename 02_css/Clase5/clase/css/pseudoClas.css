@@ -1,0 +1,60 @@
+/* div:hover {
+    background-color: lawngreen;
+} */
+
+.anuncio {
+    background-color: lightblue;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.anuncio:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    margin: 1rem;
+    padding: .5rem;
+    color:white;
+}
+
+li:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buscador input {
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    width: 100px;
+
+
+}
+
+.buscador input:focus {
+    width: 200px;
+}
+
+.buscador input:required {
+    background-color: lightcoral;
+    color: black;
+}
+
+.buscador input:read-only {
+    background-color: lightgray;
+    color: black;
+    cursor: not-allowed;
+}
+
+tr:nth-child(2n+1) {
+    background-color: lightgray;
+}

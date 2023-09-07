@@ -1,0 +1,21 @@
+/* selecciona todos lo p que está ndentro de desc sean hijos, nietos, bisnietos */
+.desc p {
+    background-color: lightblue;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* solo selecciona el hijo inmediato */
+.sec > p {
+    background-color: lightcoral;
+    padding: 1rem;
+    text-align: center;
+}
+
+h2 + p {
+    background-color: blue;
+}
+
+h3 ~ p {
+    background-color: rebeccapurple;
+}
