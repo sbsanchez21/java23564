@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+}
+
+/* encabezdo */
+.encabezado {
+    /* text-align: right; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .5rem;
+}
+
+.encabezado a {
+    margin: 0 .5rem;
+    color: black;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.encabezado a:hover {
+    text-decoration: underline;
+}
+
+.encabezado img {
+    margin: 0 .5rem;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.encabezado img:hover {
+    box-shadow: 0 0 10px lightgray;
+    cursor: pointer;
+}
+
+/* logo */
+.logo {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.logo img {
+    width: 400px;
+}
+
+.logo img:hover {
+    cursor: pointer;
+
+}
+
+/* formulario */
+.divInput {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.divInput input {
+    height: 40px;
+    width: 600px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    padding: 0 1rem;
+}
+
+.divInput input:hover {
+    box-shadow: 0px 0px 5px lightgray;
+}
+
+.btnSubmit {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btnSubmit input {
+    padding: .5rem 1rem;
+    margin: 0 .3rem;
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    font-size: .9rem;
+    color: rgb(61, 61, 61);
+}
+
+.btnSubmit input:hover {
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.ofrecido {
+    display: flex;
+    justify-content: center;
+
+    font-size: .8rem;
+    color: gray;
+}
+
+.ofrecido a {
+    text-decoration: none;
+}
+
+.puntero {
+    cursor: pointer;
+}

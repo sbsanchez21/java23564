@@ -1,0 +1,8 @@
+.caja {
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    height: 100px;
+}

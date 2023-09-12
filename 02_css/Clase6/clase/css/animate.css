@@ -1,0 +1,41 @@
+.imgPerfil {
+    width: 150px;
+}
+
+.bienv {
+    background-color: lemonchiffon;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* KEYFRMAES */
+.btnCeleste {
+    background-color: lightblue;
+    padding: 1rem;
+    margin: 1rem;
+    border: 0;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.btnCeleste:hover {
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    --animate-repeat: 4;
+}
+
+.imgAni:hover {
+    animation: hinge; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    
+    cursor: pointer;
+}
+
+.inputAni:focus {
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    border-color: aqua;
+}
