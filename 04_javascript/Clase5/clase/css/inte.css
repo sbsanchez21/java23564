@@ -1,0 +1,11 @@
+.botones a {
+    font-size: .7rem;
+}
+
+.bgGrisOscuro {
+    background-color: rgb(45, 45, 45);
+}
+
+.imgDark {
+    filter: brightness(50%);
+}
