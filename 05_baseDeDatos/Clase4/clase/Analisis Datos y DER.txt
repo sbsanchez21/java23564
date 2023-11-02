@@ -1,0 +1,74 @@
+Analisis y Diagrama/Modelo Entidad Relación
+===========================================
+
+Concesionaria:
+1- Identificar las entidades
+Clientes
+Vendedores
+Vehiculos
+Ventas
+
+2- Definir campos y tipos de datos
+Clientes:
+id	int not null primay key autoincrement
+nombre varchar(50) not null
+apellido varchar(50) not null index
+dni bigint indice único
+domicilio  varchar(100)
+tipoCliente varchar(50)
+email varchar(70)
+tel bigint
+cuit bigint 
+
+Vendedores:
+id	int not null primay key autoincrement
+nombre varchar(50) not null
+apellido varchar(50) not null index
+dni bigint indice único
+idDomicilio int foreingkey domicilio
+//domicilio  varchar(100)  Av. La Plata 2322, 2do A, Tres arroyos, Buenos Aires, Argentina, cp 1230
+email varchar(70)
+tel bigint
+cuil bigint 
+
+
+Vehiculos:
+id int nto null primay key autoincrement
+marca 
+modelo
+tipo
+patente
+color
+cantPuertas
+nroChasis
+nroMotor
+km int 
+precio double
+seguro 
+
+3- Relaciones
+Vehiculos:
+id 
+marca
+modelo
+tipo
+patente
+color
+cantPuertas
+nroChasis
+nroMotor
+km
+idCliente	int foreingkey clientes
+idVendedor int foreingkey vendedores
+
+4- Normalización
+Domicilios:
+id
+calle
+altura
+piso
+dpto
+codPostal
+localidad
+provincia
+pais

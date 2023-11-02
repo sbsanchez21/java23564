@@ -1,0 +1,89 @@
+Analisis y Diagrama/Modelo Entidad Relación
+===========================================
+
+Conf BsAs:
+1- Identificar las entidades
+Oradores
+Participantes
+Tickets
+
+
+2- Definir campos y tipos de datos
+Oradores:
+id int not null primar key autoincrement
+nombre
+apellido index
+profesion
+resenia
+email
+tel
+idDomicilio
+tipoDni
+dni int index
+pasaporte
+
+
+Temas:
+id
+nombre 
+
+Participantes:
+id 
+nombre
+apellido
+dni
+email
+tel
+idDomicilio
+cantTicket
+ocupacion
+estudios
+
+
+
+
+Domicilios:
+id
+calle
+altura
+piso
+dpto
+codPostal
+idLocalidad
+pais
+
+Localidad:
+id 
+nombre
+idProvincia int foreingkey provincia
+
+Provincia:
+id
+nombre
+
+3- Relaciones
+Vehiculos:
+id 
+marca
+modelo
+tipo
+patente
+color
+cantPuertas
+nroChasis
+nroMotor
+km
+idCliente	int foreingkey clientes
+idVendedor int foreingkey vendedores
+
+4- Normalización
+Domicilios:
+id
+calle
+altura
+piso
+dpto
+codPostal
+localidad
+provincia
+pais

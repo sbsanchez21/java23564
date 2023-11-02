@@ -1,0 +1,15 @@
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Glen', 'Pawlick', 'Overhold', 'Andalax', 'gpawlick0@cnn.com', 'http://dummyimage.com/246x100.png/dddddd/000000');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Raynor', 'Pynn', 'Zamit', 'Tempsoft', 'rpynn1@com.com', 'http://dummyimage.com/166x100.png/ff4444/ffffff');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Marcellina', 'Steljes', 'Greenlam', 'Opela', 'msteljes2@java.com', 'http://dummyimage.com/134x100.png/ff4444/ffffff');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Dorotea', 'Floweth', 'Quo Lux', 'Flowdesk', 'dfloweth3@yale.edu', 'http://dummyimage.com/114x100.png/ff4444/ffffff');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Kerwinn', 'Staterfield', 'Job', 'Bytecard', 'kstaterfield4@meetup.com', 'http://dummyimage.com/235x100.png/5fa2dd/ffffff');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Armando', 'Santus', 'Cardguard', 'Hatity', 'asantus5@mayoclinic.com', 'http://dummyimage.com/226x100.png/dddddd/000000');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Rikki', 'Griffitts', 'Keylex', 'Viva', 'rgriffitts6@purevolume.com', 'http://dummyimage.com/247x100.png/cc0000/ffffff');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Talya', 'Preist', 'Zontrax', 'Cookley', 'tpreist7@51.la', 'http://dummyimage.com/171x100.png/dddddd/000000');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Tawsha', 'Blest', 'Flexidy', 'Biodex', 'tblest8@issuu.com', 'http://dummyimage.com/147x100.png/cc0000/ffffff');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Dunstan', 'Gotling', 'Asoka', 'Prodder', 'dgotling9@webeden.co.uk', 'http://dummyimage.com/133x100.png/5fa2dd/ffffff');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Chico', 'Beddall', 'Cookley', 'Subin', 'cbeddalla@engadget.com', 'http://dummyimage.com/182x100.png/cc0000/ffffff');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Georgeanne', 'Easun', 'Holdlamis', 'Fix San', 'geasunb@nifty.com', 'http://dummyimage.com/160x100.png/5fa2dd/ffffff');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Jaquith', 'Petruszka', 'Viva', 'Aerified', 'jpetruszkac@stanford.edu', 'http://dummyimage.com/104x100.png/dddddd/000000');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Dirk', 'Doget', 'Vagram', 'Job', 'ddogetd@unesco.org', 'http://dummyimage.com/157x100.png/cc0000/ffffff');
+insert into oradores (nombre, apellido, profesion, resenia, email, fotoPerfil) values ('Staffard', 'Meiner', 'Mat Lam Tam', 'Rank', 'smeinere@marketwatch.com', 'http://dummyimage.com/129x100.png/5fa2dd/ffffff');
