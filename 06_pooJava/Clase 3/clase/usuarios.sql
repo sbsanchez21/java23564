@@ -1,0 +1,10 @@
+insert into usuarios (user, pass) values ('ofleischer0@devhub.com', 'oC9*RZ3YCX$');
+insert into usuarios (user, pass) values ('czeplin1@amazon.co.uk', 'aQ0{Xhq9t"X');
+insert into usuarios (user, pass) values ('cribbon2@bbc.co.uk', 'tJ1@e4Zl"p70R@');
+insert into usuarios (user, pass) values ('tmcminn3@arstechnica.com', 'tX1#Vw\8(D');
+insert into usuarios (user, pass) values ('brobertucci4@fastcompany.com', 'fP4(m(,877{J');
+insert into usuarios (user, pass) values ('ryellowlees5@nationalgeographic.com', 'oK6_Pi06wh=');
+insert into usuarios (user, pass) values ('tbeckson6@vimeo.com', 'bP6|N+dGgF9');
+insert into usuarios (user, pass) values ('dsiflet7@tinyurl.com', 'uE5.g!6_(caIci_`');
+insert into usuarios (user, pass) values ('aormes8@topsy.com', 'rP0\HAJ}gu8ii0_+');
+insert into usuarios (user, pass) values ('fbarabich9@alibaba.com', 'iQ0>isOo');
