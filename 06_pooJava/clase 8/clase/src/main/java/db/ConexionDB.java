@@ -10,17 +10,16 @@ public class ConexionDB {
 	private Statement st;
 	static String user="root";
 	static String password="";
-	static String server="jdbc:mysql://localhost:3306/confbsas23563";
+	static String server="jdbc:mysql://localhost:3306/confbsas23564";
 
 	public Statement conectar(){
-		try{
+		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conexion = DriverManager.getConnection(server,user,password);
 			st=conexion.createStatement();
 			return st;
 
-		}
-		catch(Exception e){
+		} catch(Exception e) {
 			System.out.println("Imposible realizar conexion con la BD");
 			e.printStackTrace();
 		}

@@ -1,57 +1,52 @@
-let edad=12
-
+let edad=23
 edad=45
+
 if (edad>=18) {
     console.log("mayor edad")
 }
 
-// aumentar el sueldo a 5 empleados
-let sueldo1=500000
-let sueldo2=600000
-let sueldo3=700000
-let sueldo4=800000
-let sueldo5=900000
-let sueldo6=300000
+/** arreglo
+ * variable especial puede contener más de un valor a la vez
+*/
+let sueldo1=50000
+let sueldo2=60000
+let sueldo3=70000
+let sueldo4=80000
+let sueldo5=90000
 
-sueldo1+=sueldo1*10/100
+
+sueldo1=sueldo1+sueldo1*10/100 //es lo mismo que +=
 sueldo2+=sueldo2*10/100
 sueldo3+=sueldo3*10/100
 sueldo4+=sueldo4*10/100
 sueldo5+=sueldo5*10/100
-sueldo6+=sueldo6*10/100
 
-// declaración, acceso y modificación de arrays
-let sueldos=[50000,60000,70000,80000,90000,100000]
+
+let sueldos=[50000,60000,70000,80000,90000]
 sueldos[0] //accedo al sueldo en el índice 0 50000
 sueldos[4] //accedo al sueldo en el índice 4 90000
 sueldos[0]=55000 //modifico el valor en el índice 0
 
-// acceso por for
+//utilzamos indices y modificamos el array
+let a=3
 for (let i = 0; i < sueldos.length; i++) {
-        sueldos[i]+=sueldos[i]*10/100
+    sueldos[i]+=sueldos[i]*10/100
 }
 
+
+//no utilizamos indices y no modificamos el array
 for (let suel of sueldos) {
     suel+=suel*10/100
 }
 
-// arreglo propiedades y métodos
-let marcas=["BMW", "Renault", "Fiat", "Volvo", "Mercedes Benz"]
-
+let marcas=["Renault","BMW","Volvo","Fiat","Volkswagen"]
 marcas.length
-
-marcas.sort() //ordena el arreglo y lo modifica
-
-marcas.pop() //sacar el último suel
-
-marcas.push("Volkswagen")
-
-
-
-let indice=marcas.indexOf("Renault")
+marcas.sort()
+marcas.pop()
+marcas.push("Mercedes Benz")
+let indice=marcas.indexOf("BMW")
 indice=marcas.indexOf("Fiat")
 
-// matrices
 // matriz
 let butacas=[
     ["A1","A2","A3"], //fila A
@@ -59,9 +54,12 @@ let butacas=[
     ["C1","C2"] //fila C
 ]
 
+
+
 butacas[0][0]
 butacas[1][2]
-butacas[1][2]="CCC"
+butacas[2][1]="CCC"
+
 
 for (let i = 0; i < butacas.length; i++) {
     for (let j = 0; j < butacas[i].length; j++) {
@@ -72,6 +70,22 @@ for (let i = 0; i < butacas.length; i++) {
 
 for (let fila of butacas) {
     for (let col of fila) {
-        col
+        butacas[i][j]
     }
 }
+
+
+let array3D=[
+    [
+        [12,22,33],
+        [22,33,1233],
+    ],
+    [
+        [12,22,33],
+        [22,33,1233],
+    ],
+    [
+        [12,22,33],
+        [22,33,1233],
+    ]    
+]

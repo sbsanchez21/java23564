@@ -19,8 +19,8 @@
             Oradores
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="listOra.jsp">Listado Oradores</a></li>
-            <li><a class="dropdown-item" href="altaUsuario.jsp">Agregar Orador</a></li>
+            <li><a class="dropdown-item" href="listaOradores.jsp">Listado Oradores</a></li>
+            <li><a class="dropdown-item" href="altaOrador.jsp">Agregar Orador</a></li>
           </ul>
         </li>
       </ul>

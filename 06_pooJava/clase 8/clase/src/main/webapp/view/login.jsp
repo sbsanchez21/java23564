@@ -23,8 +23,7 @@
 				<input type="submit" value="Enviar" class="btn btn-primary mb-3">
 			</form>
 		</div>
-		
-		<div class="text-center fs-6 my-1">
+		<div class="text-center fs-6 my-1 text-primary">
 			<a href="registro.jsp">Crear cuenta</a>
 		</div>
 		

@@ -24,7 +24,7 @@
                 <input type="email" onkeyup="validarUser()" name="user" id="user" class="form-control mb-3" placeholder="usuario" required>
                 <!-- <input type="password" onkeyup="mostrarFortCant()" name="pass" id="pass" class="form-control mb-3" placeholder="contraseÃ±a" required> -->
                 <div class="input-group mb-3">
-                    <input type="password" id="pass" name="pass" onkeyup="validarPassDiscriminada()" class="form-control" placeholder="Constraseña" aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="password" id="pass" name="pass"  onkeyup="validarPassDiscriminada()" class="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1">
                     <span class="input-group-text" id="basic-addon1">
                         <a href="#">
                             <i class="bi bi-eye-slash-fill" id="icono" onclick="mostrarPass()"></i>
@@ -32,7 +32,7 @@
                     </span>
                 </div>
                   
-                <input type="text" name="repPass" id="repPass" onkeyup="passIguales()" class="form-control mb-3" placeholder="reingrese Constraseña" required>
+                <input type="text" name="repPass" id="repPass" class="form-control mb-3" placeholder="reingrese contraseña" required>
                 <input type="submit" value="Registrar" class="btn btn-primary mb-3">
                 <input type="reset" value="Limpiar" class="btn btn-primary mb-3">
                 <div id="mensaje"></div>
@@ -40,14 +40,13 @@
 
         </div>
 		<% 
-		String mensaje=request.getParameter("mensaje");
-		if(mensaje!=null) {
-			out.println("<div class='bg-danger text-center p-1 rounded'>");
-			out.println(mensaje);
-			out.println("</div>");
-		}	
-		%>		
-
+			String mensaje=request.getParameter("mensaje");
+			if(mensaje!=null) {
+				out.println("<div class='bg-danger text-center p-1 rounded'>");
+				out.println(mensaje);
+				out.println("</div>");
+			}	
+		%>	        
     </div>
     
 
